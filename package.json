@@ -1,6 +1,6 @@
 {
   "name": "css-extractor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extract css from html files",
   "main": "index.js",
   "scripts": {
