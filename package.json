@@ -4,11 +4,18 @@
   "description": "Extract css from html files",
   "main": "index.js",
   "scripts": {
-    "test": "node ./bin/index.js extract --src ./test/test.html --dest ./test/test.css"
+    "test": "node ./bin/index.js extract --src ./test/index.html --dest ./test/index.css",
+    "deploy": "np --no-cleanup"
+  },
+  "bin": {
+    "css-extractor": "./bin/index.js"
   },
   "author": "steelydylan",
   "license": "MIT",
   "dependencies": {
-    "yargs": "^11.0.0"
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "np": "^2.20.1"
   }
 }

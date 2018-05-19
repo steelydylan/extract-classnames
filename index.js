@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const getClassNamesFromHtml = (html) => {
   const founds = html.match(/class=('|")(.*?)('|")/g);
   const classnames = founds.map((found) => {
