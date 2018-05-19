@@ -1,0 +1,14 @@
+{
+  "name": "css-extractor",
+  "version": "0.0.1",
+  "description": "Extract css from html files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./bin/index.js extract --src ./test/test.html --dest ./test/test.css"
+  },
+  "author": "steelydylan",
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  }
+}
