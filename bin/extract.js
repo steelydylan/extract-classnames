@@ -18,6 +18,10 @@ exports.builder = {
 
 exports.handler = (argv) => {
   extractByFile(path.resolve(processPath, argv.src)).then((css) => {
-    fs.writeFile(path.resolve(processPath, argv.dest), css);
+    fs.writeFile(path.resolve(processPath, argv.dest), css, (err) => {
+      if (err) {
+        console.log(err);
+      }
+    });
   });
 }
