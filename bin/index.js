@@ -1,3 +1,6 @@
+#! /usr/bin/env node
+"use strict";
+
 const argv = require('yargs')
   .command('extract', 'extract classnames from a html file', require('./extract'))
   .detectLocale(false)
