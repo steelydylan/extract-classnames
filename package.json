@@ -8,7 +8,7 @@
     "deploy": "np --no-cleanup"
   },
   "bin": {
-    "extract-classnames": "./bin/index.js"
+    "excn": "./bin/index.js"
   },
   "author": "steelydylan",
   "license": "MIT",

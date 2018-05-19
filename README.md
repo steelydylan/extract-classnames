@@ -1,8 +1,8 @@
-# css-extractor
+# extract-classnames
 
 ## Usage
 
 ```sh
-npm install css-extractor
-npx css-extractor extract --src ./test/index.html --dest ./test/index.css
+npm install extract-classnames
+npx excn extract --src ./test/index.html --dest ./test/index.css
 ```
