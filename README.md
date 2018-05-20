@@ -46,6 +46,12 @@ npm install extract-classnames -g
 excn --src ./test/index.html --dest ./test/index.css
 ```
 
+you can also execute the same function with the command `extract-classnames`
+
+```sh
+extract-classnames --src ./test/index.html --dest ./test/index.css
+```
+
 ## API
 ```js
 const excn = require('extract-classnames');

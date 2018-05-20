@@ -1,6 +1,6 @@
 {
   "name": "extract-classnames",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Extract css from html files",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "deploy": "np --no-cleanup"
   },
   "bin": {
-    "excn": "./bin/index.js"
+    "excn": "./bin/index.js",
+    "extract-classnames": "./bin/index.js"
   },
   "author": "steelydylan",
   "license": "MIT",
