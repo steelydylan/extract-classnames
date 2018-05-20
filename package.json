@@ -4,7 +4,7 @@
   "description": "Extract css from html files",
   "main": "index.js",
   "scripts": {
-    "test": "node ./bin/index.js extract --src ./test/index.html --dest ./test/index.css",
+    "test": "node ./bin/index.js --src ./test/index.html --dest ./test/index.css",
     "deploy": "np --no-cleanup"
   },
   "bin": {
