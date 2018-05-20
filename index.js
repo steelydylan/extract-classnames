@@ -5,7 +5,19 @@ const getClassNamesFromHtml = (html) => {
   const classnames = founds.map((found) => {
     return found.replace(/class=('|")(.*?)('|")/g, '$2');
   });
-  return classnames;
+  const reduced = classnames.reduce((ret, name) => {
+    return [...ret, ...name.split(' ')];
+  }, []);
+  const filtered = reduced.filter((value, index, self) => {
+    return self.indexOf(value) === index;
+  });
+  const ordered = filtered.sort((a, b) => {
+    if (a > b) {
+      return 1;
+    }
+    return -1;
+  })
+  return ordered;
 }
 
 const buildCSSFromClassNames = (classnames) => {
