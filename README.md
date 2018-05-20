@@ -36,14 +36,14 @@ output
 
 ```sh
 npm install extract-classnames
-npx excn extract --src ./test/index.html --dest ./test/index.css
+npx excn --src ./test/index.html --dest ./test/index.css
 ```
 
 global install
 
 ```sh
 npm install extract-classnames -g
-excn extract --src ./test/index.html --dest ./test/index.css
+excn --src ./test/index.html --dest ./test/index.css
 ```
 
 ## API
