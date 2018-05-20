@@ -53,7 +53,17 @@ extract-classnames --src ./test/index.html --dest ./test/index.css
 ```
 
 ## API
+
+extractByFile
 ```js
 const excn = require('extract-classnames');
-excn.extractByFile('file_path');
+excn.extractByFile('/path/to/filename').then((css) => {
+  console.log(css);
+});
+```
+
+extract
+```js
+const excn = require('extract-classnames');
+const result = excn.extract(html);
 ```
