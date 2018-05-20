@@ -1,6 +1,6 @@
 # extract-classnames
 
-Node command line tool where you can build css from html
+Node command line tool where you can extract css from html
 
 input 
 
@@ -49,5 +49,5 @@ excn extract --src ./test/index.html --dest ./test/index.css
 ## API
 ```js
 const excn = require('extract-classnames');
-excn.extractByFile('file_path')
+excn.extractByFile('file_path');
 ```
