@@ -49,5 +49,5 @@ excn extract --src ./test/index.html --dest ./test/index.css
 ## API
 ```js
 const excn = require('extract-classnames');
-excn.extractByFile('file_path)
+excn.extractByFile('file_path')
 ```
