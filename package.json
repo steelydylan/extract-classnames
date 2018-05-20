@@ -1,6 +1,6 @@
 {
   "name": "extract-classnames",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Extract css from html files",
   "main": "index.js",
   "scripts": {
